@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <title>Tasks</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <h1>Tasks</h1>
+
+    <a href="add.html" id="add-task-btn">Add new task</a>
+
+    <table id="task-table">
+      <thead>
+        <tr>
+          <th>Tasks</th>
+          <th>In progress</th>
+          <th>Done</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td id="pending-tasks">
+            <div class="task">
+              <input type="checkbox" /> Do homework
+              <button class="delete-btn">Delete</button>
+            </div>
+            <div class="task">
+              <input type="checkbox" /> Do household chores
+              <button class="delete-btn">Delete</button>
+            </div>
+          </td>
+          <td id="in-progress-tasks">
+            <div class="task">
+              <input type="checkbox" /> Wash dishes
+              <button class="delete-btn">Delete</button>
+            </div>
+            <div class="task">
+              <input type="checkbox" /> Go to the gym
+              <button class="delete-btn">Delete</button>
+            </div>
+          </td>
+          <td id="completed-tasks">
+            <div class="task completed">
+              <input type="checkbox" checked /> Cook breakfast
+              <button class="delete-btn">Delete</button>
+            </div>
+            <div class="task completed">
+              <input type="checkbox" checked /> Bomb the world
+              <button class="delete-btn">Delete</button>
+            </div>
+          </td>
+        </tr>
+      </tbody>
+    </table>
+  </body>
+</html>
